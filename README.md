@@ -24,3 +24,6 @@ You MUST apply the following design patterns for your new system
 - Command pattern to provide the “create toy”, “display toy”, “purchase toy”, “sell toy”, “undo”, “redo” and “display undo/redo list” functions
 - Factory pattern or Abstract Factory Pattern to create different Command objects and ToyProduct objects (e.g. Robot object, RemoteControlCar object, etc.)
 - Memento pattern to provide “Undo” and “Redo” functions
+
+Class diagram:
+![Class diagram](https://user-images.githubusercontent.com/73983294/145671970-5e98e3f0-996d-4892-bb4a-b71febedf0b7.jpg)
