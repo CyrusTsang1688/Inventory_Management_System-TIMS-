@@ -1,0 +1,62 @@
+package Toys;
+public abstract class ToyProduct{
+
+    private int productID;
+    private int qty;
+    private double cost;
+    private double price;
+    private String name;
+  
+    public ToyProduct(int productID,String name){
+        this.productID = productID;
+        this.name = name;
+    }
+    
+    public int getProductID() {
+      return productID;
+      
+    }
+  
+    public String getName(){
+      return name;
+    }
+  
+    public void setName(String name){
+     this.name = name;
+    }
+  
+    public int getQty(){
+      return qty;
+    }
+  
+    public void setQty(int qty){
+      this.qty = qty;
+    }
+  
+    public double getCost(){
+      return cost;
+    }
+  
+    public void setCost(double cost){
+      this.cost = cost;
+    }
+  
+    public double getPrice(){
+      return price;
+    }
+  
+    public void setPrice(double price){
+        this.price = price;
+    }
+  
+    public String toString(){
+      return "ID: " + productID + "\n" + "Name: " + name + "\n" + "Quantity: " + qty + "\n";
+    }
+    public String toDetail(){
+      return "\n" + "Cost($): " + cost + "\n" + "Price($): " + price + "\n"; 
+    }
+  
+
+
+
+}
